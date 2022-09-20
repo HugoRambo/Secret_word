@@ -8,7 +8,7 @@ body {
   padding: 0;
   background: linear-gradient(
     180deg,
-    rgba(2, 175,1) 0%,
+    rgb(66, 68, 66) 0%,
     rgba(0,0,0,1)100%
 
   );
@@ -27,5 +27,11 @@ button{
   transition: .4s;
 }
 button:hover{
-  background-color: blueviolet;
+  color: rgba(9, 11, 15, 0.7);
+  outline-color: rgba(71, 126, 232, 0);
+  outline-offset: 300px;
+}
+h1{
+  color:gainsboro ;
+  font-size: 65px;
 }
